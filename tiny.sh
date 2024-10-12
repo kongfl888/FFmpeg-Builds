@@ -1,6 +1,7 @@
 #!/bin/bash
 
 mkdir -p scriptstmp
+mv -f ./scripts.d/45-harfbuzz.sh ./scriptstmp/
 mv -f ./scripts.d/50-avisynth* ./scriptstmp/
 mv -f ./scripts.d/50-dav* ./scriptstmp/
 mv -f ./scripts.d/50-fdk-aac* ./scriptstmp/
