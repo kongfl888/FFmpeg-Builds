@@ -2,6 +2,7 @@
 set -e
 shopt -s globstar
 cd "$(dirname "$0")"
+source tiny.sh
 source util/vars.sh
 
 export LC_ALL=C.UTF-8
@@ -131,6 +132,8 @@ for script in scripts.d/**/*.sh; do
     FF_LDEXEFLAGS+=" $(get_output $script ldexeflags)"
     FF_LIBS+=" $(get_output $script libs)"
 done
+
+FF_CONFIGURE+=$FF_CONFIGURE_QT
 
 FF_CONFIGURE="$(xargs <<< "$FF_CONFIGURE")"
 FF_CFLAGS="$(xargs <<< "$FF_CFLAGS")"
