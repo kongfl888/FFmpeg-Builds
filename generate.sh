@@ -133,6 +133,7 @@ for script in scripts.d/**/*.sh; do
     FF_LIBS+=" $(get_output $script libs)"
 done
 
+FF_CONFIGURE+=$FF_CONFIGURE_SMALL
 FF_CONFIGURE+=$FF_CONFIGURE_QT
 
 FF_CONFIGURE="$(xargs <<< "$FF_CONFIGURE")"
