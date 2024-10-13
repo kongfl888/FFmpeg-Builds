@@ -3,13 +3,11 @@
 mkdir -p scriptstmp
 mv -f ./scripts.d/45-harfbuzz.sh ./scriptstmp/
 mv -f ./scripts.d/50-avisynth* ./scriptstmp/
-mv -f ./scripts.d/50-dav* ./scriptstmp/
 mv -f ./scripts.d/50-fdk-aac* ./scriptstmp/
 mv -f ./scripts.d/50-libass* ./scriptstmp/
 mv -f ./scripts.d/50-libmp3lame* ./scriptstmp/
 mv -f ./scripts.d/50-libvpx.sh ./scriptstmp/
 mv -f ./scripts.d/50-libssh.sh ./scriptstmp/
-mv -f ./scripts.d/50-rav1e.sh ./scriptstmp/
 mv -f ./scripts.d/50-srt.sh ./scriptstmp/
 mv -f ./scripts.d/50-x264.sh ./scriptstmp/
 mv -f ./scripts.d/50-x265.sh ./scriptstmp/
