@@ -11,7 +11,6 @@ mv -f ./scripts.d/50-libvpx.sh ./scriptstmp/
 mv -f ./scripts.d/50-libssh.sh ./scriptstmp/
 mv -f ./scripts.d/50-rav1e.sh ./scriptstmp/
 mv -f ./scripts.d/50-srt.sh ./scriptstmp/
-mv -f ./scripts.d/50-vvenc.sh ./scriptstmp/
 mv -f ./scripts.d/50-x264.sh ./scriptstmp/
 mv -f ./scripts.d/50-x265.sh ./scriptstmp/
 
